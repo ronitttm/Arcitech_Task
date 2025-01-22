@@ -14,32 +14,41 @@ This project is a Content Management System (CMS) API built with Django and Djan
 
 1. **Clone the Repository**
 
-  git clone https://github.com/ronitttm/Arcitech_Task.git
-  cd Arcitech_Task
+```bash
+git clone https://github.com/ronitttm/Arcitech_Task.git
+cd Arcitech_Task
+```
 
 2. **Create a Virtual Environment**
 
+```bash
   python -m venv venv
   venv\Scripts\activate
+```
   
 3. **Install Dependencies**
    
+  ```bash
   pip install -r requirements.txt
+```
 
 4. **Run Database Migrations**
-
+```bash
   python manage.py makemigrations
-  python manage.py migrate 
+  python manage.py migrate
+```
 
 5. **Seed Admin Users**
-
+```bash
   python manage.py seed_admin
-
+```
 ## Usage:
 1. **Run the Development Server**
+```bash
   python manage.py runserver
+```
 
-2. **Access the Admin Interface:**
+3. **Access the Admin Interface:**
 
   Open your browser and navigate to http://127.0.0.1:8000/admin/. Log in with your superuser credentials.
 
