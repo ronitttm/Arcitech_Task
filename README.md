@@ -48,7 +48,7 @@ cd Arcitech_Task
   python manage.py runserver
 ```
 
-3. **Access the Admin Interface:**
+2. **Access the Admin Interface:**
     Open your browser and navigate to http://127.0.0.1:8000/admin/. Log in with your superuser credentials.
 
 3. **API Endpoints:**
